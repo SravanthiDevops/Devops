@@ -1,0 +1,20 @@
+#inclue<stdio.h>
+#include<Conio.h>
+
+void main()
+{
+int a,b,c;
+int price,int,totalint,totprice;
+
+clrscr();
+printf("\n Enter Price ");
+scanf("%d",&price);
+printf("\n Enter Rate of Intrest");
+scanf("%d",&int);
+printf("\n Enter A , B and C vlaues");
+
+scanf("%d%d%d",&a,&b,&c);
+c=a+b+c;
+printf("the sum of three values are %d",c);
+getch();
+}
